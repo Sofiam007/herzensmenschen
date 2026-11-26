@@ -135,11 +135,11 @@
     .second-sec-left h2 {
         font-size: 3.8vw;
         line-height: 1.5;
-        text-align: center;padding-left: 0%;
+        text-align: center;padding-left: 0%;top: 49px;
     }
 
     .second-sec-right {
-        font-size: 13px;
+        font-size: 13px;top: -97px; margin-bottom: 63px;
     }
  
 
@@ -420,7 +420,7 @@
     font-size: 14px;
     line-height: 1.6;
 
-    text-align: left;
+    text-align: center;
 }
 
 /* ========================================
@@ -445,10 +445,7 @@
 }
 
 .contact-intro-ink {
-    width: 55%;
-
-    top: 20px;
-    left: -5%;
+    display: none;
 }
 
 /* CONTAINER */
