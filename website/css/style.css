@@ -14,7 +14,7 @@
 
     --font1: 'Barlow Semi Condensed', sans-serif;
     --font2: 'Bebas Neue', sans-serif;
-    --font3: 'Roboto', sans-serif;
+    --font3: 'Roboto', sans-serif; 
 }
 
 * {
@@ -1251,7 +1251,7 @@ nav a:hover::after {
     min-height: 500px;
     aspect-ratio: 2 / 1;
 
-    background-image: url("../pic/section 5-back.svg");
+    background-image: url("../pic/section5bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
