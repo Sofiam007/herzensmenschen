@@ -1,0 +1,575 @@
+
+/* ========================================
+   TABLET (768px - 1023px)
+======================================== */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+    /* NAVIGATION - side homepage*/
+  
+
+    .side-nav,
+    .back-to-top {
+        display: none;
+    }
+
+ 
+
+    /* FIRST SECTION */
+
+    .fist-sec {
+        width: 90%;
+    }
+
+    .first-sec-item {
+        padding: 0 15px;
+    }
+
+    .first-sec-box h2 {
+        font-size: 24px;
+    }
+
+    /* HERO */
+
+    .hero {
+        min-height: 450px;
+    }
+
+    /* VISUAL */
+
+    .hero-visual {
+        width: 55%;
+    }
+
+    .hero-paint {
+        left: -20%;
+        width: 50%;
+    }
+
+    /* CONTENT */
+
+    .hero-content {
+        width: 45%;
+        min-height: 450px;
+        padding: 30px 3%;
+    }
+
+    /* LOGO */
+
+    .hero-logo {
+        max-width: 450px;
+        margin-bottom: 15px;
+    }
+
+    /* TITLE */
+
+    .hero h1 {
+        font-size: clamp(28px, 4vw, 42px);
+    }
+
+    /* SECOND SECTION */
+
+    .second-sec {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        min-height: 370px;
+        padding: 45px 4%;
+        gap: 25px;
+    }
+
+    .second-sec-left {
+        min-height: 270px;
+    }
+
+    .second-sec-paint {
+        width: 125%;
+        height: 120%;
+        left: -12%;
+    }
+
+    .second-sec-left h2 {
+        font-size: clamp(27px, 3.6vw, 38px);
+        line-height: 1.4;
+        top: 46px;
+        left: -35px;
+    }
+
+    .second-sec-right {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .second-sec-right p {
+        margin-bottom: 12px;
+    }
+
+
+ .second-third {
+        padding: 45px 0;
+    }
+
+    .project-intro {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .project-intro h3 {
+        font-size: 24px;
+    }
+
+    .project-intro h2 {
+        font-size: 42px;
+    }
+
+    .project-intro p {
+        font-size: 15px;
+    }
+
+    .project-boxback {
+        width: 85%;
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 25px 0;
+    }
+
+    .project-box-back {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .project-box-circle {
+        width: 80px;
+        height: 80px;
+        margin-top: -40px;
+    }
+
+    .project-box-circle img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .projekte-box h4 {
+        font-size: 25px;
+        margin: 5px 0 15px;
+    }
+
+    .projekte-box p {
+        font-size: 15px;
+        padding: 0 15px 30px;
+    }
+
+    .project-ink-top,
+    .project-ink-bottom {
+        width: 30%;
+    } 
+
+/* THIRD SECTION */
+
+    .second-third {
+        padding: 45px 0;
+    }
+
+    .project-intro {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .project-intro h3 {
+        font-size: 24px;
+    }
+
+    .project-intro h2 {
+        font-size: 42px;
+    }
+
+    .project-intro p {
+        font-size: 15px;
+    }
+
+    .project-boxback {
+        width: 85%;
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 25px 0;
+    }
+
+    .project-box-back {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .project-box-circle {
+        width: 80px;
+        height: 80px;
+        margin-top: -40px;
+    }
+
+    .project-box-circle img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .projekte-box h4 {
+        font-size: 25px;
+        margin: 5px 0 15px;
+    }
+
+    .projekte-box p {
+        font-size: 15px;
+        padding: 0 15px 30px;
+    }
+
+    .project-ink-top,
+    .project-ink-bottom {
+        width: 30%;
+    }
+
+    /* FOURTH SECTION */
+
+    .team-intro {
+        width: 90%;
+        max-width: 680px;
+
+        margin: 40px auto 0;
+    }
+
+    .team-intro h3 {
+        font-size: 24px;
+    }
+
+    .team-intro h2 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .team-intro p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .team-boxback {
+        width: 85%;
+        max-width: 800px;
+
+        margin: 35px auto;
+        padding: 25px 0;
+    }
+
+    .team-box-back {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8%;
+    }
+
+    .team-box {
+        min-height: auto;
+    }
+
+    .team-box-img {
+        width: 100%;
+        aspect-ratio: 1.48 / 1;
+    }
+
+    .team-box-img img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .team-box-circle {
+        width: 110px;
+        height: 110px;
+
+        margin-top: -55px;
+    }
+
+    .team-box-circle img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .team-box h4 {
+        font-size: 25px;
+
+        padding: 0 15px;
+        margin: 3px 0 15px;
+    }
+
+    .team-box p {
+        font-size: 15px;
+        line-height: 1.6;
+
+        padding: 0 20px 35px;
+    }
+
+    .team-ink-top,
+    .team-ink-bottom {
+        width: 54%;
+    }
+
+    .team-ink-top {
+        top: 25%;
+        left: -8%;
+
+        transform: translateY(-50%);
+    }
+
+    .team-ink-bottom {
+        top: 57%;
+        right: -8%;
+
+        transform: translateY(-60%);
+    }
+
+
+    /* FIFTH SECTION */
+
+.fifth-section {
+    min-height: 420px;
+    aspect-ratio: auto;
+
+    margin: 40px 0;
+
+    background-position: center;
+}
+
+.fifth-sec-content {
+    width: 43%;
+    padding: 25px 3%;
+}
+
+.fifth-sec-logo {
+    width: 45%;
+    max-width: 150px;
+
+    margin-bottom: 20px;
+}
+
+.fifth-sec-content h3 {
+    font-size: 22px;
+}
+
+.fifth-sec-content h2 {
+    font-size: clamp(30px, 4vw, 42px);
+
+    margin-bottom: 20px;
+}
+
+.fifth-sec-text {
+    font-size: 14px;
+}
+
+/* ========================================
+   CONTACT SECTION
+======================================== */
+
+.contact-section {
+    padding: 45px 0 60px;
+}
+
+.contact-intro {
+    margin-bottom: 50px;
+}
+
+.contact-intro h3 {
+    font-size: 24px;
+}
+
+.contact-intro h2 {
+    font-size: 42px;
+}
+
+.contact-intro-ink {
+    width: 32%;
+    left: 0;
+}
+
+.contact-container {
+    width: 90%;
+    gap: 4%;
+}
+
+.contact-left > p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.contact-email,
+.contact-phone {
+    font-size: 18px;
+    gap: 12px;
+}
+
+.contact-email img,
+.contact-phone img {
+    width: 28px;
+    height: 28px;
+}
+
+.contact-phone-row {
+    gap: 10px;
+}
+
+.contact-heart {
+    width: 75px;
+}
+
+.contact-form {
+    padding: 18px;
+    gap: 10px;
+}
+
+.contact-form-group label {
+    font-size: 13px;
+}
+
+.contact-form-group textarea {
+    min-height: 150px;
+}
+
+.contact-submit {
+    font-size: 18px;
+}
+
+
+/* ========================================
+   DATENSCHUTZ - TABLET
+======================================== */
+
+.datenschutz-section {
+    padding: 45px 0 60px;
+}
+
+.datenschutz-intro {
+    margin-bottom: 45px;
+}
+
+.datenschutz-intro h1 {
+    font-size: 50px;
+}
+
+.datenschutz-intro p {
+    font-size: 20px;
+}
+
+.datenschutz-intro-ink {
+   display: none;
+}
+
+.datenschutz-container {
+    width: 85%;
+}
+
+.datenschutz-content {
+    padding: 35px 40px;
+}
+
+.datenschutz-item {
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+}
+
+.datenschutz-item h2 {
+    font-size: 25px;
+}
+
+.datenschutz-item p,
+.datenschutz-item address {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.datenschutz-ink-top,
+.datenschutz-ink-bottom {
+    width: 40%;
+}
+
+.datenschutz-ink-top {
+    top: -30px;
+    right: -6%;
+}
+
+.datenschutz-ink-bottom {
+    bottom: -30px;
+    left: -6%;
+}
+
+.datenschutz-date {
+    font-size: 16px;
+}
+
+.datenschutz-back {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+
+.impressum-section {
+    padding: 45px 0 60px;
+}
+
+.impressum-intro {
+    margin-bottom: 45px;
+}
+
+.impressum-intro h1 {
+    font-size: 50px;
+}
+
+.impressum-intro p {
+    font-size: 20px;
+}
+
+.impressum-intro-ink {
+  display: none;
+}
+
+.impressum-container {
+    width: 85%;
+}
+
+.impressum-content {
+    padding: 35px 40px;
+}
+
+.impressum-item {
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+}
+
+.impressum-item h2 {
+    font-size: 25px;
+}
+
+.impressum-item p,
+.impressum-item address {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.impressum-ink-top,
+.impressum-ink-bottom {
+    width: 40%;
+}
+
+.impressum-ink-top {
+    top: -30px;
+    right: -6%;
+}
+
+.impressum-ink-bottom {
+    bottom: -30px;
+    left: -6%;
+}
+
+.impressum-back {
+    font-size: 20px;
+
+    margin-top: 40px;
+}
+
+}
+
